@@ -77,6 +77,10 @@ body {
 		font-size: 19px;
 	}
 
+	.article {
+		margin: 1.5em 0;
+	}
+
 	.article > .content {
 		font-size: 14px;
 	}

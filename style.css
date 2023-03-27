@@ -14,7 +14,7 @@ body {
 }
 
 #title {
-	font-size: 45px;
+	font-size: 38px;
 	text-align: center;
 	margin-bottom: 1em;
 	padding: 0.5em;
@@ -35,7 +35,7 @@ body {
 
 .article > .article-title {
 	margin-bottom: 0.6em;
-	font-size: 28px;
+	font-size: 23px;
 	border-bottom: 4px solid #941010;
 }
 
@@ -59,4 +59,22 @@ body {
 
 .hide {
 	display: none;
+}
+
+@media(max-width: 600px) {
+	#title {
+		font-size: 30px;
+	}
+
+	.article-section {
+		width: 90%;
+	}
+
+	.article > .article-title {
+		font-size: 19px;
+	}
+
+	.article > .content {
+		font-size: 14px;
+	}
 }
